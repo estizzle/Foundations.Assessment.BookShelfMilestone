@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="js/book-data.js" defer></script>
+    <script src="js/bookshelf.js" defer></script>
+    <script src="js/book.js" defer></script>
+    <script src="js/index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Eston's Library</h1>
+        <nav>
+            <ul class="nav-bar">
+                
+                <li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="about.html"> About </a></li>
+                <li class="nav-link"><a href="contact.html"> Contact </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="search-bar"></section>
+
+    <section class="adding-container">
+        <div class="input-container">
+            <h4>Add a Book:</h4>
+            <div class="pair">
+                <label>Author:</label>
+                <input type="text" class="add-field" id="bk-author">
+            </div>
+            <div class="pair">
+                <label>Language:</label>
+                <input type="text" class="add-field" id="bk-language">
+            </div>
+            <div class="pair">
+                <label>Subject:</label>
+                <input type="text" class="add-field" id="bk-subject">
+            </div>
+            <div class="pair">
+                <label>Title:</label>
+                <input type="text" class="add-field" id="bk-title">
+            </div>
+            <button id="addBtn" class="add-field">Add to Library</button>
+        </div>
+        <div id="filter-container">
+            <h4>Books by Language:</h4>
+            <button id="english-button" class="lang-button">English Books</button>
+            <button id="french-button" class="lang-button">French Books</button>
+            <button id="german-button" class="lang-button">German Books</button>
+            <button id="finnish-button" class="lang-button">Finnish Books</button>
+        </div>
+    </section>
+
+    <section class="bookshelf-container"></section>
+    
+</body>
+</html>

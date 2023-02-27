@@ -1,0 +1,102 @@
+html{
+    background-color: tan;
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+    font-size: 75px;
+}
+
+ul.nav-bar{
+    background-color: maroon;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align:right;
+}
+
+li.nav-link{
+    display:inline;
+}
+
+li a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+li a:hover{
+    background-color: white;
+    color:black;
+}
+
+.adding-container{
+    display:flex;
+    /* flex-direction: row; */
+    margin-bottom: 20px;
+}
+
+.input-container, #filter-container {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+}
+
+.input-container{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+h4{
+    margin: 0;
+    padding: 10px;
+}
+
+.pair{
+    text-align: right;
+    margin-bottom: 5px;
+    width: 350px;
+}
+
+#addBtn{
+    width: 150px;
+}
+
+
+.lang-button{
+    width: 200px;
+    margin: 5px 0;
+}
+
+#comment-button{
+    margin-left: 10px;
+}
+
+.comment{
+    font-size: 20px;
+}
+
+.bookshelf-container{
+    font-size: 25px;
+}
+
+ul.list{
+    margin: 0 100px; 
+}
+
+li.list-item{
+    list-style: square;
+}
